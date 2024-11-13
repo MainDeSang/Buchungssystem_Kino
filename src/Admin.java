@@ -1,6 +1,10 @@
+import java.util.Collections;
+import java.util.List;
+
 public class Admin {
     private String adminName;
     private String adminPassword;
+    private List<String> library;
 
     public Admin(String adminName, String adminPassword) {
         this.adminName = adminName;
@@ -14,6 +18,4 @@ public class Admin {
     public String getAdminPassword() {
         return adminPassword;
     }
-
-
 }
