@@ -18,4 +18,14 @@ public class Admin {
     public String getAdminPassword() {
         return adminPassword;
     }
+    public String addToLibrary(String movieName) {
+        library.add(movieName);
+        return movieName;
+    }
+    public void removeFromLibrary(String movieName) {
+        library.remove(movieName);
+    }
+    public void changeLibrary(String movieName) {
+        library.set(library.indexOf(movieName), movieName);
+    }
 }
