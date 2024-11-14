@@ -1,9 +1,9 @@
-public class User {
-    private String username;
+public class Costumer {
+    private String costumer;
     private String password;
 
-    public User(String name, String password) {
-        this.username = name;
+    public Costumer(String name, String password) {
+        this.costumer = name;
         this.password = password;
     }
 
@@ -14,4 +14,5 @@ public class User {
     public String getPassword(String password) {
         return password;
     }
+    public
 }
