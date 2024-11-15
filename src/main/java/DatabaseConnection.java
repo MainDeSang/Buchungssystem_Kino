@@ -1,3 +1,5 @@
+// Verbindung zum Datenbankcontainer von Manu um den Zugriff externer Verwender auf die Datenbank zu ermöglichen
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
@@ -41,5 +43,9 @@ public class DatabaseConnection {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static Connection getConnection() {
+        return null;
     }
 }
